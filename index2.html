@@ -1,5 +1,5 @@
 <html>
-
+    
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -14,16 +14,27 @@
     <body class="io-grey-mode">
         <div class="page-container">
             <div class="main-content flex-fill">
-                <div class="header-big css-img mb-4" style="background-image: url(/image/2020082620345998.png)">
-                    <div class="s-search">
-                        <div id="search" class="s-search mx-auto">
-                             <h1 style="text-align: center;color: #ffffff;">我 的 导 航</h1>
+                
+                <div class="header-big css-img mb-4">
+                    <!-- style="background-image: url(https://image.jackhu.cn/blog/202003/2020082620345998.png)" -->
+                    <iframe class="canvas-bg" scrolling="no" sandbox="allow-scripts allow-same-origin" src="/fx07.html"></iframe>
+                    <div class="s-search" style="padding-bottom: 24px;">
+                        <div id="search" class="s-search mx-auto"> 
+                            <span id="jinrishici-sentence" style="display: block;height: 30px;text-align: center;color: #FFF;"></span>
+                            <script src="https://sdk.jinrishici.com/v2/browser/jinrishici.js" charset="utf-8"></script>
+                            <form action="https://www.baidu.com/s?wd=" method="get" target="_blank" class="super-search-fm">
+                                <input type="text" id="search-text" class="form-control smart-tips search-key" zhannei="" placeholder="输入关键字搜索" name="wd">
+                                <button type="submit">
+                                    <img src="img/search.svg" style="height: 18px;margin: 15px 0;">
+                                </button>
+                            </form>
                         </div>
                     </div>
                 </div>
+                
                 <div id="content" class="content-site customize-site">
                     <div class="d-flex flex-fill ">
-                         <h4 class="text-gray text-lg mb-4"> <i class="site-tag iconfont icon-tag icon-lg mr-1" id="term-7"></i> 常用网站 </h4>
+                         <h4 class="text-gray text-lg mb-4"> <img src="img/tag.svg" style="height: 20px;vertical-align: bottom;"> 常用网站 </h4>
                     </div>
                     <div class="row ">
                         <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a ">
@@ -351,8 +362,8 @@
                             </div>
                         </div>
                     </div>
-                    <div class="d-flex flex-fill ">
-                         <h4 class="text-gray text-lg mb-4"> <i class="site-tag iconfont icon-tag icon-lg mr-1" id="term-5"></i> 私人订制 </h4>
+                    <!--div class="d-flex flex-fill ">
+                         <h4 class="text-gray text-lg mb-4"> <img src="img/tag.svg" style="height: 20px;vertical-align: bottom;"> 私人订制 </h4>
                     </div>
                     <div class="row ">
                         <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a ">
@@ -463,9 +474,9 @@
                                 </a>
                             </div>
                         </div>
-                    </div>
+                    </div -->
                     <div class="d-flex flex-fill ">
-                         <h4 class="text-gray text-lg mb-4"> <i class="site-tag iconfont icon-tag icon-lg mr-1" id="term-4"></i> 实用工具 </h4>
+                         <h4 class="text-gray text-lg mb-4"> <img src="img/tag.svg" style="height: 20px;vertical-align: bottom;"> 实用工具 </h4>
                     </div>
                     <div class="row ">
                         <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a ">
@@ -794,7 +805,7 @@
                         </div>
                     </div>
                     <div class="d-flex flex-fill ">
-                         <h4 class="text-gray text-lg mb-4"> <i class="site-tag iconfont icon-tag icon-lg mr-1" id="term-71"></i> 资源共享 </h4>
+                         <h4 class="text-gray text-lg mb-4"> <img src="img/tag.svg" style="height: 20px;vertical-align: bottom;"> 资源共享 </h4>
                     </div>
                     <div class="row ">
                         <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a ">
@@ -1015,7 +1026,7 @@
                         </div>
                     </div>
                     <div class="d-flex flex-fill ">
-                         <h4 class="text-gray text-lg mb-4"> <i class="site-tag iconfont icon-tag icon-lg mr-1" id="term-2"></i> Win &amp; Mac </h4>
+                         <h4 class="text-gray text-lg mb-4"> <img src="img/tag.svg" style="height: 20px;vertical-align: bottom;"> Win &amp; Mac </h4>
                     </div>
                     <div class="row ">
                         <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a ">
@@ -1128,7 +1139,7 @@
                         </div>
                     </div>
                     <div class="d-flex flex-fill ">
-                         <h4 class="text-gray text-lg mb-4"> <i class="site-tag iconfont icon-tag icon-lg mr-1" id="term-3"></i> 学无止境 </h4>
+                         <h4 class="text-gray text-lg mb-4"> <img src="img/tag.svg" style="height: 20px;vertical-align: bottom;"> 学无止境 </h4>
                     </div>
                     <div class="row ">
                         <div class="url-card col-6 col-sm-6 col-md-4 col-xl-5a col-xxl-6a ">
@@ -1221,17 +1232,19 @@
                                 </a>
                             </div>
                         </div>
-
                     </div>
                 </div>
-                <footer class="main-footer footer-type-1 text-xs" style="">
+                
+                <footer class="main-footer footer-type-1 text-xs">
                     <div id="footer-tools" class="d-flex flex-column">
-                        <a href="/index.html" class="btn rounded-circle m-1" data-toggle="tooltip" data-placement="left" title="" target="_self" data-original-title="极简导航" style="
-    background: #ddd;"> <img class="footer" src="img/home.svg" style="height: 32px;margin: 3px;">
+                        <a href="/index.html" class="btn rounded-circle m-1" data-toggle="tooltip" data-placement="left" title="" target="_self" data-original-title="极简导航" style="background: #f1404b;">
+                            <img class="footer" src="img/home.svg" style="height: 32px;margin: 3px;">
                         </a>
                     </div>
                 </footer>
+                
             </div>
         </div>
     </body>
+
 </html>
