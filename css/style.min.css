@@ -2010,3 +2010,7 @@ a:hover {
 .background-mode .bing{
 	display: block;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
