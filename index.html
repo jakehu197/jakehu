@@ -1,0 +1,243 @@
+<html>
+    
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>极简导航</title>
+        <link rel="icon" type="image/ico" href="favicon.png">
+        <meta name="description" content="极简导航是一个简单，纯粹的电脑导航网站。" />
+        <meta name="keywords" content="Jackhu,jackhu.cn,大胡子,极简导航,主页" />
+        <link rel="stylesheet" href="css/bootstrap.min.css">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+    </head>
+    
+    <body class="user-bookmark-body bookmark-default mini-sidebar">
+        <!-- bing壁纸 -->
+        <div class="bookmark-bg">
+            <div class="img-bg" style="background-image: url(/image/001.jpg)"></div>
+            <div class="img-bg bing" style="background-image: url(https://api.dujin.org/bing/1920.php)"></div>
+            <div class="gradient-linear"></div>
+        </div>
+        <!-- bing壁纸 end -->
+        <div class="header-big mb-4">
+            <div class="s-search">
+                <div id="search" class="s-search mx-auto">
+                    <div class="big-title text-center mb-3 mb-md-5 mt-2" style="height: 90px;">
+                        <div id="clock" class="h1">
+                            <div class=time1>12∶42</div>
+                            <div class=time2>12:42</div>
+                            <div class=time3>正月廿四 星期六</div>
+                        </div>
+                    </div>
+                    <div id="search-list-menu" style="margin-bottom: 0.5rem;">
+                        <div class="s-type text-center overflow-x-auto">
+                            <div class="s-type-list big">
+                                <div class="anchor" style="position: absolute; opacity: 1;"></div>
+                                <label for="type-baidu" data-id="group-a" class="active"> <span>百度</span>
+
+                                </label>
+                                <label for="type-bing" data-id="group-b"> <span>必应</span>
+
+                                </label>
+                                <label for="type-google" data-id="group-c"> <span>谷歌</span>
+
+                                </label>
+                                <label for="type-toutiao" data-id="group-d"> <span>头条</span>
+
+                                </label>
+                                <label for="type-bilibili" data-id="group-e"> <span>哔哩</span>
+
+                                </label>
+                            </div>
+                        </div>
+                    </div>
+                    <form action="https://www.baidu.com/s?wd=%s%" method="get" target="_self" class="super-search-fm">
+                        <input type="text" id="search-text" class="form-control smart-tips search-key" zhannei="" placeholder="输入关键字搜索" style="outline:0" autocomplete="off" autofocus="autofocus">
+                        <button type="submit">
+                            <img src="image/search.svg" style="height: 18px;margin: 15px 0;">
+                        </button>
+                    </form>
+                    <div id="search-list" class="hide-type-list">
+                        <div class="search-group justify-content-center group-a">
+                            <ul class="search-type">
+                                <li>
+                                    <input hidden="" type="radio" name="type" id="type-baidu" value="https://www.baidu.com/s?wd=%s%" data-placeholder="百度一下">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search-group justify-content-center group-b">
+                            <ul class="search-type">
+                                <li>
+                                    <input hidden="" type="radio" name="type" id="type-bing" value="https://cn.bing.com/search?q=%s%" data-placeholder="Bing搜索">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search-group justify-content-center group-c">
+                            <ul class="search-type">
+                                <li>
+                                    <input hidden="" type="radio" name="type" id="type-google" value="https://www.google.com/search?q=%s%" data-placeholder="手气不错">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search-group justify-content-center group-d">
+                            <ul class="search-type">
+                                <li>
+                                    <input hidden="" type="radio" name="type" id="type-toutiao" value="https://so.toutiao.com/search?dvpf=pc&keyword=%s%" data-placeholder="今日头条">
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="search-group justify-content-center group-e">
+                            <ul class="search-type">
+                                <li>
+                                    <input hidden="" type="radio" name="type" id="type-bilibili" value="https://search.bilibili.com/all?keyword=%s%" data-placeholder="哔哩哔哩">
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="card search-smart-tips" style="display: none">
+                        <ul></ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="quick-sites position-relative">
+            <div class="container text-center px-5">
+                <div class="row">
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="https://www.taobao.com" title="淘宝">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/taobao.svg" onerror="javascript:this.src='image/icon/default.svg'" alt="淘宝">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>淘宝</span>
+
+                        </div>
+                    </a>
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="https://www.jd.com" title="京东">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/jd.svg" onerror="javascript:this.src='image/icon/default.svg'" alt="京东">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>京东</span>
+
+                        </div>
+                    </a>
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="https://www.bilibili.com" title="bilibili">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/bilibili.svg" onerror="javascript:this.src='image/icon/default.svg'" alt="bilibili">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>bilibili</span>
+
+                        </div>
+                    </a>
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="https://www.douyin.com" title="抖音">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/douyin.svg" onerror="javascript:this.src='image/icon/default.svg'" alt="抖音">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>抖音</span>
+
+                        </div>
+                    </a>
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="https://www.douyu.com/g_yqk" title="斗鱼">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/douyu.svg" onerror="javascript:this.src='image/icon/default.svg'" alt="斗鱼">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>斗鱼</span>
+
+                        </div>
+                    </a>
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="https://www.iqiyi.com/" title="爱奇艺">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/iqiyi.svg" onerror="javascript:this.src='image/icon/default.svg'" alt="爱奇艺">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>爱奇艺</span>
+
+                        </div>
+                    </a>
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="https://mail.163.com" title="网易邮箱">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/mail-163.svg" onerror="javascript:this.src='image/icon/default.svg'" alt="网易邮箱">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>网易邮箱</span>
+
+                        </div>
+                    </a>
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="https://music.163.com/#/playlist?id=117483672" title="网易音乐">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/music163.svg" onerror="javascript:this.src='image/icon/default.svg'" alt="网易音乐">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>网易音乐</span>
+
+                        </div>
+                    </a>
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="https://myseller.taobao.com/home.htm" title="千牛">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/qianniu.webp" onerror="javascript:this.src='image/icon/default.svg'" alt="千牛">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>千牛</span>
+
+                        </div>
+                    </a>
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="https://oauth.taobao.com/authorize?response_type=code&client_id=12158997&redirect_uri=https://route.kuaidizs.cn/forward.jsp" title="快递助手">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/kuaidi.webp" onerror="javascript:this.src='image/icon/default.svg'" alt="快递助手">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>快递助手</span>
+
+                        </div>
+                    </a>
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="http://shop.taocrm.com/IndexNew.aspx" title="多卖">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/duomai.webp" onerror="javascript:this.src='image/icon/default.svg'" alt="多卖">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>多卖</span>
+
+                        </div>
+                    </a>
+                    <a class="sites-btn col-3 col-md-2 text-center mb-4" target="_self" href="https://www.jackhu.cn/wp-admin/edit-comments.php" title="大胡子">
+                        <div class="d-flex mb-2">
+                            <div class="sites-icon mx-auto ub-blur-bg">
+                                <img class="lazy loaded" src="image/icon/jakehu.webp" onerror="javascript:this.src='image/icon/default.svg'" alt="大胡子">
+                            </div>
+                        </div>
+                        <div class="sites-title ub-blur-bg px-2 text-xs"> <span>大胡子</span>
+
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+        <footer class="main-footer footer-type-1 position-relative text-xs" style="">
+            <div id="footer-tools" class="d-flex flex-column">
+                <a href="javascript:backgroundMode()" class="btn rounded-circle m-1" title="壁纸切换">
+                    <img class="footer" src="image/bing.svg">
+                </a>
+                <a href="nav.php" class="btn rounded-circle m-1" title="首页" target="_self">
+                    <img class="footer" src="image/home.svg">
+                </a>
+            </div>
+        </footer>
+        <script type="text/javascript" src="js/app.min.js"></script>
+    </body>
+
+</html>
