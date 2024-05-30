@@ -1938,13 +1938,9 @@ a:hover {
 .time2{
 	display: none;
 }
-@media (max-width:767px){
-.time1{
-	display: none;
-}
-.time2{
-	display: block;
-}
+@supports (-webkit-touch-callout: none) and (-webkit-tap-highlight-color: transparent) and (-webkit-text-size-adjust: none) {
+.time1{display: none;}
+.time2{display: block;}
 }
 
 #footer-tools {
