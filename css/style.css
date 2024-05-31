@@ -12,7 +12,8 @@ a:hover{text-decoration:none;color:#f1404b}
 .form-control:disabled{background-color:#f1f3f6;opacity:1;color:#0d131b}
 @media (max-width:767.98px){.container{padding-right:.625rem;padding-left:.625rem}
 .row{margin-right:-.5rem;margin-left:-.5rem}
-.row [class*=col-]{padding-right:.5rem;padding-left:.5rem}}
+.row [class*=col-]{padding-right:.5rem;padding-left:.5rem}
+}
 #search{max-width:800px;position:relative}
 #search form{position:relative}
 #search-text{z-index:inherit;padding:9pt;height:50px;font-size:1pc;border:0;border-radius:3px;background-color:#fff;transition:.3s}
