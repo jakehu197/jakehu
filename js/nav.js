@@ -2,7 +2,7 @@ $(function() {
 
 	var offset = 300,
 			offset_opacity = 200,
-			scroll_top_duration = 300,
+			scroll_top_duration = 400,
 			$back_to_top = $('.buttontop-top');
 
 	$(window).scroll(function(){
