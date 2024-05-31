@@ -109,6 +109,7 @@ a:hover{text-decoration:none;color:#f1404b}
 .bing{display:none}
 ::-webkit-scrollbar{display:none}
 .background-mode .bing{display:block}
+
 /** 普通指针样式**/
 body {cursor: url(/image/S1.cur),default;}
 /** 链接指针样式**/
