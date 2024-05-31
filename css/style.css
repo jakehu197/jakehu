@@ -12,7 +12,8 @@ a:hover{text-decoration:none;color:#f1404b}
 .form-control:disabled{background-color:#f1f3f6;opacity:1;color:#0d131b}
 @media (max-width:767.98px){.container{padding-right:.625rem;padding-left:.625rem}
 .row{margin-right:-.5rem;margin-left:-.5rem}
-.row [class*=col-]{padding-right:.5rem;padding-left:.5rem}}
+.row [class*=col-]{padding-right:.5rem;padding-left:.5rem}
+}
 #search{max-width:800px;position:relative}
 #search form{position:relative}
 #search-text{z-index:inherit;padding:9pt;height:50px;font-size:1pc;border:0;border-radius:3px;background-color:#fff;transition:.3s}
@@ -36,7 +37,8 @@ a:hover{text-decoration:none;color:#f1404b}
 .search-smart-tips ul li{line-height:30px;font-size:14px;padding:0 25px;cursor:url(/image/S2.cur),pointer;list-style:none;transition:.3s}
 .search-smart-tips ul li.current,.search-smart-tips ul li:hover{background-color:rgba(130,130,130,.5)}
 @media screen and (max-width:767.98px){#search{margin:25px auto 15px}
-.s-type-list label{padding:5px 0}}
+.s-type-list label{padding:5px 0}
+}
 .overflow-x-auto{overflow-x:auto;overflow-y:unset}
 .header-big{position:relative;margin-top:-75px;padding-top:60px;padding-bottom:60px}
 .header-big .s-search{margin:0 15px}
@@ -63,7 +65,7 @@ a:hover{text-decoration:none;color:#f1404b}
 .header-big #search-text{border-radius:50px;color:#fff;border:1px solid rgba(255,255,255,.05);padding:8px 45px 10px 20px;-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px);background-color:rgba(0,0,0,.6)!important}
 @media (max-width:767px){.header-big #search-text{padding:8px 45px 8px 20px}
 }
-.header-big #search button{position:absolute;top:0;right:0;background:0 0;border:0!important;width:unset;height:unset;margin:0 9px;line-height:50px;border-radius:3px;cursor:url(/image/S2.cur),pointer;}
+.header-big #search button{position:absolute;top:0;right:0;background:0 0;border:0!important;width:unset;height:unset;margin:0 9px;line-height:50px;border-radius:3px;cursor:url(/image/S2.cur),pointer}
 .header-big #search button:active,.header-big #search button:focus{box-shadow:none;outline:0;border:0!important}
 .header-big:not(.no-bg) .big-title .h1{color:#fff!important}
 @media screen and (min-width:768px){.header-big{padding-top:110px;padding-bottom:110px}
@@ -107,6 +109,7 @@ a:hover{text-decoration:none;color:#f1404b}
 .bing{display:none}
 ::-webkit-scrollbar{display:none}
 .background-mode .bing{display:block}
+
 
 /** 普通指针样式**/
 body {cursor: url(/image/S1.cur),default;}
