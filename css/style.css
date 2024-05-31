@@ -36,8 +36,7 @@ a:hover{text-decoration:none;color:#f1404b}
 .search-smart-tips ul li{line-height:30px;font-size:14px;padding:0 25px;cursor:url(/image/S2.cur),pointer;list-style:none;transition:.3s}
 .search-smart-tips ul li.current,.search-smart-tips ul li:hover{background-color:rgba(130,130,130,.5)}
 @media screen and (max-width:767.98px){#search{margin:25px auto 15px}
-.s-type-list label{padding:5px 0}
-}
+.s-type-list label{padding:5px 0}}
 .overflow-x-auto{overflow-x:auto;overflow-y:unset}
 .header-big{position:relative;margin-top:-75px;padding-top:60px;padding-bottom:60px}
 .header-big .s-search{margin:0 15px}
