@@ -109,6 +109,15 @@ a:hover{text-decoration:none;color:#f1404b}
 .bing{display:none}
 ::-webkit-scrollbar{display:none}
 .background-mode .bing{display:block}
+.nothing{padding:20px 0;text-align:center;background:rgba(0,0,0,.1);border-radius:5px}
+.ub-blur-bg{-webkit-backdrop-filter:blur(5px);backdrop-filter:blur(5px)}
+.col-12{-ms-flex:0 0 90%;flex:0 0 90%;max-width:90%}
+@media (min-width:992px){.col-lg-8{-ms-flex:0 0 66.666667%;flex:0 0 66.666667%;max-width:66.666667%}
+}
+.btn2{display:inline-block;font-weight:300;color:#fff;width:85px;text-align:center;background-color:rgba(175,175,175,.2);padding:.375rem .75rem;margin:.175rem;font-size:.9rem;border-radius:.25rem}
+.container{margin-bottom:100px}
+@media (max-height: 900px) {.user-bookmark-body .header-big{padding-top: 60px;}.container{margin-bottom: 40px;}}
+@media (max-height: 720px) {.mobile{display: none;}}
 
 
 /** 普通指针样式**/
